@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container max-w-[800px] text-center pb-6 px-2 text-white bg-[#F5A623] my-20 mx-auto">
+        <h1 class="py-8 text-4xl font-semibold font-mono">To-Do List</h1>
+        <div class="input-container space-x-4">
+            <input class="py-2 px-6 max-w-[400px] text-black" type="text" id="new-task" placeholder="Add a new task">
+            <button id="add-task-btn"
+                class="bg-white text-black py-2.5 px-6 hover:bg-black duration-500 rounded-sm">Add</button>
+        </div>
+        <ul id="task-list" class="bg-white text-black mt-6"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

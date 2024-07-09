@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.delete {
+    background-color: white;
+    color: black;
+
+    padding: 0.5rem 1.5rem;
+    margin-left: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button.delete:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    flex: 1;
+    width: 400px;
+}
+
+@media(max-width:768px) {
+    input[type="text"] {
+        width: auto;
+    }
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+
+}
+
+ul {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 4px;
+    border: none;
+}
+
+li {
+    background-color: #F5A623;
+    color: black;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+textarea {
+    width: 400px;
+    padding: 10px;
+}
+
+button.delete {
+    color: black;
+    padding: 10px 10px;
+    margin-left: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
